@@ -40,3 +40,4 @@ urlfile
 downloads/
 fish_history
 termux_config_repo
+.config/nvim/bundle/Vundle.vim/

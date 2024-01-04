@@ -14,11 +14,6 @@ set updatetime=25
 " Cursorline highlight
 :set      cursorline
 :set      cursorcolumn
-highlight Cursorline guibg=#2b2b2b
-highlight Cursorlolumn guibg=#2b2b2b
-set       hlsearch
-
-
 
 " Spaces
 set shiftwidth=4
@@ -31,15 +26,47 @@ set autoindent
 " Theme
 :set completeopt-=preview " For No Previews
 syntax enable
-:set background=dark
-:colorscheme nord
+colorscheme afterglow
 
 " mapping in Normal mode.
 nmap <C-s> :w<CR>
+nmap <C-d> :source $HOME/.config/nvim/init.vim <CR>
 nmap <C-q> :q<CR>
 nmap <C-o> :e .<CR>
 " mapping in Insert mode.
 imap <C-s> <ESC>:w<CR>
 imap <C-o> :e .<CR>
 
+" NERDTree map
+nnoremap <C-f> :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
 
+
+
+set nocompatible              " be iMproved, required
+filetype off                  " required
+filetype plugin indent on
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.config/nvim/bundle/Vundle.vim
+
+call vundle#begin()
+    Plugin 'VundleVim/Vundle.vim'
+    Plugin 'townk/vim-autoclose'
+    Plugin 'scrooloose/nerdtree'
+    Plugin 'ryanoasis/vim-devicons'
+    Plugin 'vim-airline/vim-airline'
+    Plugin 'vim-airline/vim-airline-themes'
+    Plugin 'danilo-augusto/vim-afterglow'
+ 
+call vundle#end()
+
+" Airline configurations
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline_theme='afterglow'
+"

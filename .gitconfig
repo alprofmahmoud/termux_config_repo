@@ -1,0 +1,8 @@
+[user]
+	name = alprofmahmoud
+	email = u0_a368@localhost
+[core]
+	excludesFile = /data/data/com.termux/files/home/.gitignore_global
+[alias]
+	st = status
+	cm = commit -m

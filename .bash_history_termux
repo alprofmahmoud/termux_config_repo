@@ -1,0 +1,500 @@
+apt upgrade
+ssh
+apt install git openssh clang python vim neofetch weechat fish zsh 
+pkg install git openssh clang python vim neofetch weechat fish zsh 
+python3 -m pip install -U yt-dlp
+yt-dlp 
+git clone git@github.com:alprofmahmoud/nsdv.git
+cd nsdv/
+ls
+cd
+cp nsdv/ ../usr/bin/
+cp -r nsdv/ ../usr/bin/
+la
+ls -a
+cp termux_repo/.bashrc .
+git lsp
+lsp
+lsd
+pkg install lsd
+lsd
+exit
+termux-setup-storage 
+git 
+cd .ssh/
+ls
+ssh-keygen 
+cat id_github
+cat id_github.pub 
+whoami
+vi id_github.pub 
+git clone https://github.com/alprofmahmoud/termux_repo.git
+mv termux_repo/ ..
+cp ../termux_repo/config ../termux_repo/authorized_keys .
+ssh -T git@github.com
+exit
+la
+nsdv
+vi ../usr/bin/nsdv/
+vi ../usr/bin/nsdv/single.sh 
+vi ../usr/bin/nsdv/thumbnails.sh 
+vi ../usr/bin/nsdv/single.sh 
+vi ../usr/bin/nsdv/thumbnails.sh 
+vi ../usr/bin/nsdv/main.sh 
+nsdv
+fish
+exit
+lsd
+fish
+exit
+lsd
+fish
+exit
+fitsh
+fish
+nsdv
+vi ../usr/bin/nsdv/single.sh 
+vi ../usr/bin/nsdv/main_yt-dlp.sh 
+nsdv
+ls
+lsd
+lsd -a
+cd .local/share/fish/
+ls
+cat fish_history 
+cp ~/termux_repo/fish_history .
+cat fish_history 
+cd
+vi .bashrc
+exit
+ls
+exit
+ll
+la
+fish
+exit
+fish
+exit
+fish
+exit
+vi nsdv/output.sh 
+vi nsdv/test_variables.sh 
+fish
+vi .bashrc 
+exit
+vi nsdv/test_variables.sh 
+vi .bashrc 
+exit
+ls
+fish
+exit
+vi .bashrc 
+ls
+vi ../usr/etc/motd
+rm -rf ../usr/etc/motd
+vi ../usr/etc/motd
+ls
+mv motd~ ../usr/etc/
+exit
+vi .bashrc 
+exit
+nsdv
+clea
+clear
+pkg upg
+exit
+vi .bashrc 
+vi termux_repo/init.vim
+vi
+vi .vimrc 
+ls
+fish
+exit
+rmv
+exit
+vi 
+fish
+exit
+cd
+fish
+exit
+cd
+vi .vimrc 
+vi termux_repo/init.vim~
+wget https://raw.githubusercontent.com/vim-airline/vim-airline/master/doc/airline.txt
+vi airline.txt 
+vi .vimrc 
+pkg install libfribidi0 libfribidi-dev
+libfribidi0
+libfribidi
+pkg install fribidi
+fribidi 
+bicon
+محمود
+termux-api
+pkg install termux-api
+termux-api
+termux-clipboard-get 
+wget https://github.com/RedVirous88/termux-arabic/blob/main/font.ttf
+ls
+mv font.ttf .termux/
+exit
+echo $LC_ALL 
+ls
+vi 
+vi
+vi 
+clear
+vi
+vi termux_repo/init.vim~ 
+vi
+git clone git://github.com/altercation/vim-colors-solarized.git
+ls
+cd vim-colors-solarized/
+ls
+cd colors/
+ls
+cp solarized.vim ~/.vim/colors/
+mkdir ~/.vim/colors
+cp solarized.vim ~/.vim/colors/
+vi
+vi 
+cd ..
+ls
+cd vim-colors-solarized/
+ls
+xd colors/
+ls
+cd colors/
+ls
+vi ~/.vimrc 
+vi
+vi ~/.vimrc 
+ls
+git clone git://github.com/ajh17/Spacegray.vim
+vi ~/.vimrc 
+curl -O https://raw.githubusercontent.com/nanotech/jellybeans.vim/master/colors/jellybeans.vim
+ls
+vi ~/.vimrc 
+vi ../../../../../usr/share/vim/vimrc 
+locate colors
+cd ../../../../../usr/share/vim/
+ls
+cd vim90/
+ls
+cp ~/.vim/bundle/jellybeans.vim/colors/jellybeans.vim  ~/.vim/colors/
+vi
+cd
+vi .vimrc 
+cp .vim/bundle/nord-vim/colors/nord.vim .vim/colors/
+vi
+vi .vimrc 
+vi termux_repo/init.vim~
+vi .vimrc 
+vi termux_repo/init.vim~
+vi .vimrc 
+cd .vim/colors/
+ls
+vi nord.vim 
+cd
+vi termux_repo/init.vim~
+vi .vimrc 
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+vi .vimrc 
+vi termux_repo/init.vim~
+vi .vimrc 
+vi termux_repo/init.vim~
+vi .vimrc 
+vi p.php
+vi .vimrc 
+cd .vim/colors/
+ls
+cd
+ls
+cd vim-afterglow/
+ls
+cp colors/afterglow.vim ../.vim/colors/
+cd
+vi .vimrc 
+vi termux_repo/init.vim~
+vi .vimrc 
+vi h.html
+vi .vimrc 
+vi termux_repo/init.vim~
+vi .vimrc 
+vi .vim/bundle/vim-devicons/plugin/webdevicons.vim 
+vi .vimrc 
+vi p.php
+vi .vimrc 
+ls
+pkg install fzf apache2 
+vi
+vi .vimrc 
+vi p.php
+vi .vimrc 
+ls .vim/
+ls .vim/colors/
+ls .vim/bundle/
+vi .vimrc 
+ls .vim/colors/
+git clone https://github.com/lifepillar/vim-solarized8.git     ~/.vim/pack/themes/opt/solarized8
+vi
+ls .vim/bundle/
+cd .vim/bundle/
+ls
+cd vim-airline/
+ls
+cd autoload/
+ls
+cd airline/
+ll
+cd themes/
+ls
+wget https://github.com/vim-airline/vim-airline-themes/blob/master/autoload/airline/themes/solarized.vim
+ld
+ls
+vi
+ls
+rmv solarized.vim 
+vi dark.vim 
+cd 
+vi .vimrc
+vi .vim/colors/afterglow.vim 
+vi .vim/bundle/vim-airline/autoload/airline.vim 
+vi .vim/bundle/vim-airline/autoload/airline/init.vim 
+vi
+vi .vimrc
+vi .vim/bundle/vim-airline/autoload/airline/init.vim
+cd  .vim/bundle/vim-airline/autoload/airline/
+git st
+git restore init.vim 
+git st
+cd
+cd  .vim/bundle/vim-airline/autoload/airline/
+cd
+vi .vim/bundle/vim-airline/autoload/airline/init.vim
+vi .vimrc
+exit
+cp Hack/
+ls
+unzip -d Hack Hack.zip 
+ls
+cp Hack/HackNerdFontPropo-Bold.ttf .termux/font.ttf 
+termux-reload-settings 
+bidi
+apt install bidi
+
+fribidi 
+lua
+vi .vimrc 
+cat i.vim >> .vimrc 
+vi .vimrc 
+apt install bidi
+vi .vimrc 
+vi i.vim 
+vi .vimrc 
+vi ii.vim
+wget https://github.com/neoclide/coc.nvim/blob/master/README.md
+vi README.md 
+vi 
+vi .vimrc 
+vi 
+vi .vimrc 
+vi p.y
+vi p.py
+vi ii.vim
+vi .vimrc 
+vi p.py
+vi .vimrc 
+vi p.py
+vi .vimrc 
+vi p.py
+vi .vimrc 
+vi p.py
+exit
+vi .vimrc 
+nodejs
+pkg install nodejs-lts
+vi .vimrc 
+npm
+npm ci
+cd ~/.vim/bundle/coc.nvim
+yarn install
+yarn build
+pkg install yarn
+yarn install
+yarn build
+vi
+cd
+vi py.py
+vi termux_repo/init.vim~ 
+vi .vimrc 
+vi
+vi .vimrc 
+vi py.py
+vi 
+vi i.vim
+vi .vimrc 
+cls
+vi p.py
+vi .vimrc 
+vi i.vim 
+vi .vimrc 
+vi p.py
+vi .vimrc 
+cd ~/.vim/bundle/coc.nvim
+vi p.py
+cd
+vi .vimrc 
+exit
+vi p.py
+vi p.php
+vi termux_repo/shortcut_vim 
+vi termux_repo/shortcut_vim exit
+exit
+ipub
+exit
+vi .bashrc 
+pkgi vim
+pkg
+vi .bashrc 
+exit
+vi .vimrc 
+vi p.php
+vi .vimrc 
+vi p.php
+vi .vimrc 
+vi p.php
+exit
+vi vv
+cd ~/.vim/bundle/coc.nvim/plugin/
+ls
+vi coc.vim 
+vi vi
+vi p.py
+vi coc.vim 
+vi p.py
+vi coc.vim 
+vi p.py
+vi coc.vim 
+vi p.py
+vi coc.vim 
+vi p.py
+vi coc.vim 
+vi p.py
+vi coc.vim 
+vi p.py
+vi coc.vim 
+vi p.py
+vi coc.vim 
+vi p.py
+vi coc.vim 
+vi p.py
+vi coc.vim 
+vi p.py
+vi coc.vim 
+git st
+git restore coc.vim 
+git st
+vi coc.vim 
+vi p.py
+la
+ls
+cd ..
+ls
+lscls
+cls
+cd
+git st
+fish
+exit
+pkgi vim
+exit
+ls
+pkg F-Droid.apk 
+cd
+echo -e "\e[031m" "HEY, MAKE SURE TO INSTALL THE TERMUX API APP THEN COME BACK AGAIN IN TERMUX" && sleep 2 && xdg-open "https://f-droid.org/repo/com.termux.api_51.apk"&& echo -e '\e[032m' 'HAVE YOU INSATLLED TERMUX API APK? IF YESS THEN PRESS ENTER, IF NO THEN RE-RUN THE SCRIP AND THIS TIME INSTALL THE APK IN YOU PHONE' && read r && pkg install "termux-api" && exit
+termux-battery-status 
+termux-clipboard-get 
+pkg F-Droid.apk 
+exit
+ls
+termux-sms-send +201120377640 hello
+termux-sms-send 01120377640 hello
+termux-sms-send -nb+201120377640 hello
+termux-sms-send -n +201120377640 hello
+termux-sms-send -n +201094400950 hello
+termux-clipboard-get 
+Termux-Torrent
+torrent
+termimage
+pkgi termimage -g
+pkgi termimage -y
+termimage 
+cd storage/pictures/Instagram/
+ll
+termimage IMG_20231115_071924_162.jpg 
+cls
+termimage IMG_20231116
+termimage IMG_20231116_001205_884.jpg 
+cls
+termux-app
+bicon
+pkgi bison
+bicon
+bidi
+exit
+bicon
+pkg remove bison
+exit
+pkg upd
+pkg upgr
+echo $LANG 
+apt search 
+apt install fribidi
+apt install fribidi-static 
+apt install socat 
+bidi
+exit
+متتتتت
+ll
+ls
+cd Hack/
+ls
+libfribidi0
+git clone https://github.com/adi1090x/termux-style.git
+ls
+cd termux-style/
+cd fonts/
+ls
+cp Hack.ttf ~/.termux/font.ttf 
+xit
+exit
+exit
+exit
+exit
+export PS1="\n\u > \w\n\$ "
+ls
+cd .config/
+echo $PS1
+export PS1="\u > \w\n\$ "
+ls
+export PS1="\u > \w\n\λ "
+export PS1="\u > \w\nλ "
+exit
+echo $PS1
+export PS1=\[\e[31m\][\[\e[m\]\[\e[38;5;172m\]\u\[\e[m\]@\[\e[38;5;153m\]\h\[\e[m\] \[\e[38;5;214m\]\W\[\e[m\]\[\e[31m\]]\[\e[m\]\\λ
+export PS1="\[\e[31m\][\[\e[m\]\[\e[38;5;172m\]\u\[\e[m\]@\[\e[38;5;153m\]\h\[\e[m\] \[\e[38;5;214m\]\W\[\e[m\]\[\e[31m\]]\[\e[m\]\\λ"
+export PS1="\[\e[31m\][\[\e[m\]\[\e[38;5;172m\]\u\[\e[m\]@\[\e[38;5;153m\]\h\[\e[m\] \[\e[38;5;214m\]\W\[\e[m\]\[\e[31m\]]\[\e[m\]\λ"
+export PS1="\[\e[31m\][\[\e[m\]\[\e[38;5;172m\]\u\[\e[m\]@\[\e[38;5;153m\]\h\[\e[m\] \[\e[38;5;214m\]\W\[\e[m\]\[\e[31m\]]\[\e[m\]λ"
+fish
+ls
+export PS1="\[\e[31m\][\[\e[m\]\[\e[38;5;172m\]\u\[\e[m\]@\[\e[38;5;153m\]\h\[\e[m\] \[\e[38;5;214m\]\W\[\e[m\]\[\e[31m\]]\[\e[m\]λ "
+ls
+cd
+vi .bashr
+vi .bashrc 
+vi .config/fish/config.fish 
+vi .bashrc 
+exit
+exit

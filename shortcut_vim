@@ -1,0 +1,81 @@
+▪︎ Keys in vim
+<C> = Ctrl
+<S> = Shift
+<ESC> = ESC
+<CR> = enter
+<Down> = ↓ 
+
+▪︎ normal mode - ESC
+	gg 》Move the cursor to the beginning of the file.
+	G 》Move the cursor to the end of the file.
+	u 》to undo the last change.
+	h 》move cursor ←
+	l 》move cursor →
+	k 》move cursor ↑
+	j 》move cursor ↓
+	p 》paste after the cursor.
+	P 》paste before the cursor.
+	C 》Delete from the cursor position to the end of the line and start insert mode.
+	d0 》 Delete from the cursor position to the start of the line.
+	D 》Delete the characters under the cursor until the end of the line.
+	0 》cursor moves to the start of the current line.
+	$ 》cursor moves to the end of the current line.
+	b 》cursor moves to the start of the previous word.
+	w 》Move the cursor to the start of the world.
+	e 》Move the cursor to the end of the world.
+	H 》move the cursor to the start of the displaying screen.
+	M 》move the cursor to the middle line of the screen.
+	L 》move the cursor to the end line of the screen.
+	% 》Move the cursor to parenthesis or (curly/square) brackets ([{}]).
+
+	ZZ 》 write and exit.
+	ZQ 》 Qiut without checking for changeV 》 visual line mode.
+	numberline G 》 go to number line.
+	cit 》 go to in the tag.
+	ci[({< 》 change in [({<. 
+	dit 》 delete in the tag.
+	0w 》 go to the beginning line.
+	cw 》change word.
+	ctrl+v 》 visual block mode.
+	ctrl+b 》 move to scroll up ↑ the entire page.
+	ctrl+f 》 move to scroll down ↓ the entire page.
+
+
+▪︎ command mode - :
+	:u 》to undo the last change.
+	:n -fileName- 》 new file.
+	:x 》 write and exit.
+	:q! 》 Qiut without checking for changes.
+	:vs :vsplit 》 split current window split Vertically.
+	:e -fileName- 》 open file.
+	:numberline 》 go to number line.
+	:helpclose 》 help close.
+	:q 》 quit from help
+	:ls 》 show all buffers.
+			%     the buffer in the current window.
+			a     an active buffer.
+			#     the alternate buffer.
+			=     a readonly buffer.
+			R     a terminal buffer with a running job.
+            F     a terminal buffer with a finished job.
+			u     an unlisted buffer
+			
+	
+
+	:new 》 Create a new window and start editing an empty file in it.
+	:sort 》 sort lines.
+	:sort iu 》 sort lines and i casesenistive u uniqe.
+	:sort! 》 sort lines from under.
+	:terminal -shellName- 》 open terminal.
+	:messages 》 print messages.
+	:messages clear 》 clear messages.
+	
+
+▪︎ insert mode : i
+	i 》 insert before cursor.
+	a 》 insert after cursor.
+	o 》 insert and new line.
+
+▪︎ recording mode : q+namerecording.
+	q 》 exit mode recording.
+	

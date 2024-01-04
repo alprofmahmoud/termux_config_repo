@@ -36,5 +36,7 @@ termux_repo/
 urldone
 vim-afterglow/
 urlfile
-
-
+.bash_history
+downloads/
+fish_history
+termux_config_repo

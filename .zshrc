@@ -1,9 +1,12 @@
 # Aliasses customize
-alias ls='ls --color'
-alias ll='ls -l'
-alias la='ls -a'
+alias ls="lsd $argv"
+alias ll="lsd -lh $argv"
+alias la="lsd -a $argv"
 alias sdv='sh /data/data/com.termux/files/home/storage/downloads/down_termux/sdv.sh'
-alias inst ="apt install"
-alias pkg ="pkg install "
-alias cls =clear
+alias apti="apt install $argv"
+alias pkgi="pkg install $argv"
+alias pkgmv="pkg remove $argv"
+alias cls=clear
+
+# Variable in system
 

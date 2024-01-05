@@ -2,6 +2,7 @@
 alias ls="lsd $argv"
 alias ll="lsd -lh $argv"
 alias la="lsd -a $argv"
+alias rmv="rm -rf $argv"
 alias nsdv="$PATH/nsdv/main.sh"
 alias pkgi="pkg install $argv"
 alias pkgrm="pkg remove $argv"

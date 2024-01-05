@@ -2,7 +2,8 @@
 alias ls="lsd $argv"
 alias ll="lsd -lh $argv"
 alias la="lsd -a $argv"
-alias sdv='sh /data/data/com.termux/files/home/storage/downloads/down_termux/sdv.sh'
+alias rmv="rm -rf $argv"
+alias nsdv='bash $PATH/nsdv/main.sh'
 alias apti="apt install $argv"
 alias pkgi="pkg install $argv"
 alias pkgmv="pkg remove $argv"

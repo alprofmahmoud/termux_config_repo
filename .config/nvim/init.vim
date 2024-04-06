@@ -41,7 +41,10 @@ inoremap <C-v> <ESC>:read !termux-clipboard-get<CR>i
 
 " Theme
 :set completeopt-=preview " For No Previews
-colorscheme afterglow
+syntax enable
+set background=dark
+"colorscheme solarized
+"colorscheme afterglow
 
 " mapping in Normal mode.
 nmap <C-s> :w<CR>
@@ -65,8 +68,8 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
 
 " Syntastic map
-nmap <C-[> :SyntasticCheck<CR>
-nmap <C-]> :SyntasticReset<CR>
+nmap <F8> :SyntasticCheck<CR>
+nmap <F7> :SyntasticReset<CR>
 
 
 
@@ -81,13 +84,14 @@ call vundle#begin()
     Plugin 'VundleVim/Vundle.vim'
     Plugin 'townk/vim-autoclose'
     Plugin 'scrooloose/nerdtree'
-    "Plugin 'ryanoasis/vim-devicons'
+    Plugin 'ryanoasis/vim-devicons'
     Plugin 'vim-airline/vim-airline'
     Plugin 'vim-airline/vim-airline-themes'
     Plugin 'danilo-augusto/vim-afterglow'
     Plugin 'junegunn/fzf'
     Plugin 'tpope/vim-fugitive'
     Plugin 'scrooloose/syntastic'
+    Plugin 'altercation/vim-colors-solarized'
  
 call vundle#end()
 
@@ -123,8 +127,9 @@ let g:airline_section_y = 'BN:%{bufnr("%")}'
 "                           %v
 "                           %#__restore__#'
 let g:airline_section_z='%p%%%#__accent_bold#%{g:airline_symbols.linenr}%l%#__restore__#%#__accent_bold#/%v%{g:airline_symbols.maxlinenr}%L%#__restore__#'
-let g:airline_theme='afterglow'
 
+
+let g:airline_theme='base16_solarized'
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
 endif
@@ -138,7 +143,7 @@ let g:airline_symbols.branch = ''
 let g:airline_symbols.colnr = ' ℅:'
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ' :'
-let g:airline_symbols.maxlinenr = ' ☰'
+let g:airline_symbols.maxlinenr = ' ☰ '
 let g:airline_symbols.dirty='⚡'
 
 " Syntastic confifure  

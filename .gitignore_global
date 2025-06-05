@@ -55,3 +55,8 @@ v.vim
 name_reels
 v_title
 .emacs.d
+.Xauthority
+.config/QtProject.conf
+.config/wireshark/
+.dbus/
+.vnc/

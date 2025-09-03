@@ -60,3 +60,5 @@ v_title
 .config/wireshark/
 .dbus/
 .vnc/
+nsdv_by_py/
+VimScript

@@ -61,7 +61,7 @@ set completeopt-=preview " For No Previews
 
 " Try to load theme with fallback
 try
-    colorscheme solarized8_flat
+    colorscheme solarized8_hight
 catch /^Vim\%((\a\+)\)\=:E185/
     try
         colorscheme gruvbox
@@ -105,6 +105,10 @@ nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 nnoremap <C-j> :tabprevious<CR>
 nnoremap <C-k> :tabnext<CR>
+
+let mapleader = ","
+nnoremap <space> za
+nnoremap <leader>zz zf}        " طي الفقرة (paragraph)
 
 " Insert mode mappings
 imap <C-s> <ESC>:w<CR>

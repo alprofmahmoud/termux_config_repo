@@ -19,6 +19,8 @@ call vundle#begin()
     Plugin 'tpope/vim-fugitive'
     Plugin 'scrooloose/syntastic'
     Plugin 'altercation/vim-colors-solarized'
+    Plugin 'godlygeek/tabular'
+    Plugin 'preservim/vim-markdown'
 call vundle#end()
 
 " Plug Setup (for modern plugins)
@@ -27,6 +29,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'ryanoasis/vim-devicons'
     Plug 'morhetz/gruvbox'
     Plug 'lifepillar/vim-solarized8'
+    Plug 'iamcco/markdown-preview.vim'
+    Plug 'instant-markdown/vim-instant-markdown'
 call plug#end()
 
 filetype plugin indent on    " required
@@ -218,4 +222,13 @@ let g:fzf_colors = {
   \ 'header':  ['fg', 'Comment'] }
 
 " FZF history
-let g:fzf_history_dir = '~/.local/share/fzf-history'
+let g:fzf_history_dir = '~/.local/share/fzf-history' 
+
+"================================
+" Instant markdown configurations
+"================================
+
+let g:instant_markdown_slow = 1
+let g:instant_markdown_autostart = 1 
+
+nnoremap <F9> :!glow %<CR>

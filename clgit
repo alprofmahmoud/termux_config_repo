@@ -1,5 +1,20 @@
-history | grep "git remote"
-history | grep git remote
+git init
+
+git add .
+git status
+git add <file name>
+git reset <file name>
+
+git commit -m "comment"
+git branch -M master
+git checkout
+
+git restore <file name>
+git diff <file name>
+
+git pull origin main
+git push -u origin main
+
 git remote -v
 git remote add origin git@github.com:alprofmahmoud/termux_repo.git
 git remote remove origin
@@ -8,8 +23,17 @@ git remote set-url --add  origin git@github.com:alprofmahmoud/termux_repo.git
 git remote set-url git@github.com:alprofmahmoud/termux_repo.git
 git remote get-url --push origin
 git remote get-url --push
-git remote get-url
-git remote get-url  git@github.com:alprofmahmoud/termux_repo.git
-git remote  git@github.com:alprofmahmoud/termux_repo.git
-git remote add termux_repo git@github.com:alprofmahmoud/termux_repo.git
+git remote get-url origin
+git remote get-url git@github.com:alprofmahmoud/termux_repo.git
 git remote add git@github.com:alprofmahmoud/termux_repo.git
+
+git config pull.rebase true
+git config --global user.name "wheezy"
+git config user.name
+git config --global user.email "whezzy@debvm"
+git config user.email
+
+#generate key and add the key in github
+ssh-keygen
+ssh -T git@github.com
+

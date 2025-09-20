@@ -47,6 +47,7 @@ lcte_file.txt
 urlfile_1
 urlfile_2
 c_plusplus_repo/
+python_repo
 .termux/shell
 .config/weechat
 p.py
@@ -62,3 +63,4 @@ v_title
 .vnc/
 sdv_by_py/
 VimScript
+.config/nvim/plugged/
